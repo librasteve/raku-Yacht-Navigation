@@ -1,1 +1,8 @@
 # raku-Yachts-Navigation
+
+This Jupyter Notebook is intended as a Raku coding companion to anyone who is working on the theory aspects of yachting.
+The aim is to help intermediate students of yacht cruising to learn and appreciate modern software coding techiques and to apply them to perform interactive calculations.
+The author has chosen raku over other programming languages, such as Python or Go, for a number of reasons: (i) Unicode makes it more natural to express nautical formulae, (ii) Rational numbers are more suitable for navigation problems, (iii) it combines Object Oriented, Functional and Procedural programming in a expressive way that matches the needs of nautical problems and (iv) it has a basic set of commands 'baby raku' that can be grasped quickly by newcomers to programming.
+No prior knowledge of yachting or coding are needed to start - the concepts are introduced gradually by example.
+More on raku language can be found at http://raku.org and http://docs.raku.org. I highly recommend 'Think Raku' by Laurent Rosenfeld, with Allen Downey (https://greenteapress.com/wp/think-perl-6/) as an excellent introduction to modern programming for beginningers without any prior knowledge of coding. Raku is the new name for perl6.
+This content is provided under the Artistic licence 2.0.
