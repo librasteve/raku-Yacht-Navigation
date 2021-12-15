@@ -3,7 +3,7 @@ Uses (https://github.com/p6steve/raku-Physics-Measure)
 
 ## Yachts and Navigation - Raku Coding Companion
 
-This Jupyter Notebook is intended as a Raku coding companion to anyone who is working on the theory aspects of yachting. The original code is located ad maintained here https://github.com/p6steve/raku-Yachts-Navigation.
+This Jupyter Notebook is intended as a Raku coding companion to anyone who is working on the theory aspects of yachting. The original code is located ad maintained here https://github.com/p6steve/raku-Yacht-Navigation.
 
 The aim is to help intermediate students of yacht cruising to learn and appreciate modern software coding techiques and to apply them to perform interactive calculations.
 
