@@ -16,7 +16,7 @@ More on raku language can be found at http://raku.org and http://docs.raku.org. 
 This content is provided under the Artistic licence 2.0.
 
 # Instructions for Jupyter Notebook local
-- ```zef install --verbose Physics::Measure```
+- ```zef install --verbose Physics::Navigation```
 - ```git clone https://github.com/p6steve/perl6-Physics-Measure-JupyterBinder.git``` this repo on your machine
 - Do the Quick Start here Brian Duggan perl6 jupyter-notebook at <https://github.com/bduggan/p6-jupyter-kernel>
 - From the root directory go ```jupyter-notebook```
