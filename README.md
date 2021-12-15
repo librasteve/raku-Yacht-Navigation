@@ -1,4 +1,4 @@
-## raku-Yachts-Navigation
+## raku-Yacht-Navigation
 Uses (https://github.com/p6steve/raku-Physics-Measure)
 
 ## Yachts and Navigation - Raku Coding Companion
