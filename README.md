@@ -1,5 +1,5 @@
 ## raku-Yacht-Navigation
-Uses (https://github.com/p6steve/raku-Physics-Measure)
+Uses [Physics::Measure](https://github.com/p6steve/raku-Physics-Measure) and [Physics::Navigation](https://github.com/p6steve/raku-Physics-Navigation)
 
 ## Yachts and Navigation - Raku Coding Companion
 
