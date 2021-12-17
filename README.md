@@ -5,7 +5,7 @@ Uses [Physics::Measure](https://github.com/p6steve/raku-Physics-Measure) and [Ph
 
 This Jupyter Notebook is intended as a Raku coding companion to anyone who is working on the theory aspects of yachting. The original code is located ad maintained here https://github.com/p6steve/raku-Yacht-Navigation.
 
-The aim is to help intermediate students of yacht cruising to learn and appreciate modern software coding techiques and to apply them to perform interactive calculations.
+The aim is to help students of yacht cruising to try out some modern software coding techiques and to apply them to perform interactive calculations.
 
 The author has chosen raku over other programming languages, such as Python or Go, for a number of reasons: (i) Unicode makes it more natural to express nautical formulae, (ii) Rational numbers are more suitable for navigation problems, (iii) it combines Object Oriented, Functional and Procedural programming in a expressive way that matches the needs of nautical problems and (iv) it has a basic set of commands 'baby raku' that can be grasped quickly by newcomers to programming.
 
@@ -21,6 +21,14 @@ This content is provided under the Artistic licence 2.0.
 - Do the Quick Start here Brian Duggan perl6 jupyter-notebook at <https://github.com/bduggan/p6-jupyter-kernel>
 - From the root directory go ```jupyter-notebook```
 - Go to /eg and click Synopsis.ipynb, then Run each cell - explore & enjoy!
+
+# Instructions for Jupyter Notebook on Binder
+To launch with Binder:
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/p6steve/raku-Yacht-Navigation/HEAD)
+
+- click the badge above, sometimes the server will be built and takes about 60 secs to launch
+- if you are unlucky, a new server build can take 10-12 mins, please be patient (show logs to see the action)
 
 # Inspired by
 * Brian Duggan's perl6 jupyter-notebook at <https://github.com/bduggan/p6-jupyter-kernel>
