@@ -5,7 +5,7 @@ Uses [Physics::Measure](https://github.com/p6steve/raku-Physics-Measure) and [Ph
 
 This Jupyter Notebook is intended as a Raku coding companion to anyone who is working on the theory aspects of yachting. The original code is located ad maintained here https://github.com/p6steve/raku-Yacht-Navigation.
 
-The aim is to help students of yacht cruising to try out some modern software coding techiques and to apply them to perform interactive calculations.
+The aim is to help students of yacht cruising to try out some modern software coding techiques and to apply them to perform interactive calculations in a fun and interactive way. And to help students of raku get to grips with using this language on some real-world concepts.
 
 The author has chosen raku over other programming languages, such as Python or Go, for a number of reasons: (i) Unicode makes it more natural to express nautical formulae, (ii) Rational numbers are more suitable for navigation problems, (iii) it combines Object Oriented, Functional and Procedural programming in a expressive way that matches the needs of nautical problems and (iv) it has a basic set of commands 'baby raku' that can be grasped quickly by newcomers to programming.
 
