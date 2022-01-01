@@ -1,6 +1,5 @@
 FROM p6steve/rakudo:rpmnyj-amd64-2021.05
-#note subtle distinction from p6steve/rakudo:rpmnj-amd64-2021.05, will need to
-#build it!!
+#note subtle distinction from p6steve/rakudo:rpmnj-amd64-2021.05
 
 EXPOSE 8888
 
