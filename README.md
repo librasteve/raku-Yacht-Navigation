@@ -3,7 +3,7 @@ Uses [Physics::Measure](https://github.com/p6steve/raku-Physics-Measure) and [Ph
 
 ## Yachts and Navigation - Raku Coding Companion
 
-This Jupyter Notebook is intended as a Raku coding companion to anyone who is working on the theory aspects of yachting. The original code is located ad maintained here https://github.com/p6steve/raku-Yacht-Navigation.
+This Jupyter Notebook is intended as a Raku coding companion to anyone who is working on the theory aspects of yachting.
 
 The aim is to help students of yacht cruising to try out some modern software coding techiques and to apply them to perform interactive calculations in a fun and interactive way. And to help students of raku get to grips with using this language on some real-world concepts.
 
@@ -13,7 +13,9 @@ No prior knowledge of yachting or coding are needed to start - the concepts are 
 
 More on raku language can be found at http://raku.org and http://docs.raku.org. I highly recommend 'Think Raku' by Laurent Rosenfeld, with Allen Downey (https://greenteapress.com/wp/think-perl-6/) as an excellent introduction to modern programming for beginningers without any prior knowledge of coding. Raku is the new name for perl6.
 
-This content is provided under the Artistic licence 2.0.
+_Copyright @2022 p6steve_
+This content is provided under the Artistic licence 2.0 terms of use and is maintained at https://github.com/p6steve/raku-Yacht-Navigation.git
+THIS CONTENT IS PROVIDED FOR EDUCATIONAL PURPOSES ONLY - DO NOT RELY SOLELY ON THESE TECHNIQUES FOR LIFE CRITICAL NAVIGATION TASKS
 
 # Instructions for Jupyter Notebook local
 - ```zef install --verbose Physics::Navigation```
