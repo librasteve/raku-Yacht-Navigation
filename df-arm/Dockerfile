@@ -1,12 +1,12 @@
-FROM p6steve/rakudo:notebook-arm64-2021.05
+FROM librasteve/rakudo:notebook-arm64-2021.05
     
 RUN zef install -v Math::Polygons \ 
-    && git clone https://github.com/p6steve/raku-Math-Polygons.git \
+    && git clone https://github.com/librasteve/raku-Math-Polygons.git \
     && cp -R raku-Math-Polygons/eg / \
-    && zef install -v https://github.com/p6steve/raku-Physics-Measure.git \
-    && zef install -v https://github.com/p6steve/raku-Physics-Constants.git \
-    && zef install -v https://github.com/p6steve/raku-Physics-Navigation.git \
-    && git clone https://github.com/p6steve/raku-Yacht-Navigation.git \
+    && zef install -v https://github.com/librasteve/raku-Physics-Measure.git \
+    && zef install -v https://github.com/librasteve/raku-Physics-Constants.git \
+    && zef install -v https://github.com/librasteve/raku-Physics-Navigation.git \
+    && git clone https://github.com/librasteve/raku-Yacht-Navigation.git \
     && cp -R raku-Yacht-Navigation/eg /
 
 ENTRYPOINT ["/bin/bash"]
