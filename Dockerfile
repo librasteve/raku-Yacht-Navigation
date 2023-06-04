@@ -1,6 +1,10 @@
-FROM p6steve/rakudo:rpmnyj-amd64-2021.05
-#note subtle distinction from librasteve/rakudo:rpmnj-amd64-2021.05
+FROM librasteve/rakudo:rpmkj-amd64
+
+RUN git clone https://github.com/librasteve/raku-Yacht-Navigation.git \
+    && cp -R raku-Yacht-Navigation/eg /home/jovyan/work
+
+ENTRYPOINT ["/bin/bash"]
 
 EXPOSE 8888
 
-CMD ["jupyter", "notebook", "--port=8888", "--no-browser", "--ip=0.0.0.0"]
+#CMD ["jupyter", "notebook", "--port=8888", "--no-browser", "--allow-root"]
