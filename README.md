@@ -1,3 +1,6 @@
+[![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic%202.0-0298c3.svg)](https://opensource.org/licenses/Artistic-2.0)
+[![rpmnyjk -> DH](https://github.com/librasteve/raku-Yacht-Navigation/actions/workflows/rpmnyjk-weekly.yaml/badge.svg)](https://github.com/librasteve/raku-Yacht-Navigation/actions/workflows/rpmnyjk-weekly.yaml)
+
 ## raku-Yacht-Navigation
 Uses [Physics::Measure](https://github.com/librasteve/raku-Physics-Measure) and [Physics::Navigation](https://github.com/librasteve/raku-Physics-Navigation)
 
@@ -13,39 +16,30 @@ No prior knowledge of yachting or coding are needed to start - the concepts are 
 
 More on raku language can be found at http://raku.org and http://docs.raku.org. I highly recommend 'Think Raku' by Laurent Rosenfeld, with Allen Downey (https://greenteapress.com/wp/think-perl-6/) as an excellent introduction to modern programming for beginningers without any prior knowledge of coding. Raku is the new name for perl6.
 
-_Copyright @2022 librasteve_
-This content is provided under the Artistic licence 2.0 terms of use and is maintained at https://github.com/librasteve/raku-Yacht-Navigation.git
-THIS CONTENT IS PROVIDED FOR EDUCATIONAL PURPOSES ONLY - DO NOT RELY SOLELY ON THESE TECHNIQUES FOR LIFE CRITICAL NAVIGATION TASKS
-
 ## raku-Yacht-Navigation
 Jupyter workbook examples for raku https://github.com/librasteve/raku-Yacht-Navigation.git
 
-# Instructions for Jupyter Notebook on Binder
-To launch with Binder:
+## Docker Instructions
+To use on Docker:
+- ```docker run -it --platform linux/amd64 -p 8888:8888 librasteve/rakudo:rpmnyjk-amd64```
+- ```jupyter-notebook --port=8888 --no-browser --allow-root```
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/librasteve/raku-Yacht-Navigation/HEAD)
+_running on root is NOT RECOMMENDED, this is NOT SUITABLE for public facing servers_
 
-- click the badge above, sometimes the server will be built and takes about 60 secs to launch
-- if you are unlucky, a new server build can take 30-40sec, please be patient (show logs to see the action)
+_on Apple M-series silicon, Docker Desktop will run it on rosetta ([settings](https://levelup.gitconnected.com/docker-on-apple-silicon-mac-how-to-run-x86-containers-with-rosetta-2-4a679913a0d5))_
 
-# Instructions for Jupyter Notebook local
-To use follow these examples:
+## Installation Instructions
+To install on your local machine:
 - ```zef install --verbose https://github.com/librasteve/raku-Physics-Navigation.git```
 - do the Quick Start here Brian Duggan perl6 jupyter-notebook at <https://github.com/bduggan/p6-jupyter-kernel>
 - ```git clone https://github.com/librasteve/raku-Yacht-Navigation.git``` this repo on your machine and ```cd raku-Yacht-Navigation``` into the new dir
-- command line ```jupyter notebook``` - this will open a jupyter-notebook session in your browser
-- in the browser, go to /eg and open each Chapter, then Run each cell - explore & enjoy!
+- command line ```jupyter-notebook``` - this will open a jupyter-notebook session in your browser
+- in the browser, go to /eg and click ```Yachts and Navigation - Chapter 1 - Introduction.ipynb Introduction.ipynb```, then Run each cell - explore & enjoy!
 
-# Inspired by
+## Inspired by
 * Brian Duggan's perl6 jupyter-notebook at <https://github.com/bduggan/p6-jupyter-kernel>
 
-# Dockerfiles
-### /Dockerfile is for Jupyter / Binder on amd64
-- Emphasis on fast launch FROM librasteve/rakudo:rpmnyj-amd64-2021.05 prebuilt image
-### df-amd/Dockerfile is recipe for librasteve/rakudo:rpmnj-amd64-2021.05
-- Emphasis on build from scratch FROM sumankhanal/rakudo:2021.05 viz. [sumanstats/raku-notebook](https://github.com/sumanstats/raku-notebook)
-### df-arm/Dockerfile is recipe for librasteve/rakudo:rpmnj-arm64-2021.05
-- Emphasis on rapid development for ubuntu on macOS M1 with layered approach FROM librasteve/rakudo:notebook-arm64-2021.05
-- Drop support for Binder (Binder will not run arm64 image)
-- linux/arm64 toolchain: ubuntu... > notebook... > rpmnyj... (https://hub.docker.com/repository/docker/librasteve/rakudo)
-- align github/librasteve:  rakudo... > notebook... > rpmnyj (raku-Physics-Measure:Navigation:Yacht:Jupyter)
+_Copyright (c)2022-2023 Henley Cloud Consulting Ltd._
+
+This content is provided under the Artistic licence 2.0 terms of use and is maintained at https://github.com/librasteve/raku-Yacht-Navigation.git
+THIS CONTENT IS PROVIDED FOR EDUCATIONAL PURPOSES ONLY - DO NOT RELY SOLELY ON THESE TECHNIQUES FOR LIFE CRITICAL NAVIGATION TASKS
