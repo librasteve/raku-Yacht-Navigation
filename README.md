@@ -34,7 +34,7 @@ To install on your local machine:
 - do the Quick Start here Brian Duggan perl6 jupyter-notebook at <https://github.com/bduggan/p6-jupyter-kernel>
 - ```git clone https://github.com/librasteve/raku-Yacht-Navigation.git``` this repo on your machine and ```cd raku-Yacht-Navigation``` into the new dir
 - command line ```jupyter-notebook``` - this will open a jupyter-notebook session in your browser
-- in the browser, go to /eg and click ```Yachts and Navigation - Chapter 1 - Introduction.ipynb Introduction.ipynb```, then Run each cell - explore & enjoy!
+- in the browser, go to ```raku-Yacht-Navigation/eg```, then Run each cell - explore & enjoy!
 
 ## Inspired by
 * Brian Duggan's perl6 jupyter-notebook at <https://github.com/bduggan/p6-jupyter-kernel>
