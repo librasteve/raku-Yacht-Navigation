@@ -1,4 +1,4 @@
-FROM librasteve/rakudo:rpmkj-amd64
+FROM librasteve/rakudo:rpmjk-amd64
 
 RUN git clone https://github.com/librasteve/raku-Yacht-Navigation.git \
     && cp -R raku-Yacht-Navigation/eg /home/jovyan/work
