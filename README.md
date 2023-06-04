@@ -16,9 +16,6 @@ No prior knowledge of yachting or coding are needed to start - the concepts are 
 
 More on raku language can be found at http://raku.org and http://docs.raku.org. I highly recommend 'Think Raku' by Laurent Rosenfeld, with Allen Downey (https://greenteapress.com/wp/think-perl-6/) as an excellent introduction to modern programming for beginningers without any prior knowledge of coding. Raku is the new name for perl6.
 
-## raku-Yacht-Navigation
-Jupyter workbook examples for raku https://github.com/librasteve/raku-Yacht-Navigation.git
-
 ## Docker Instructions
 To use on Docker:
 - ```docker run -it --platform linux/amd64 -p 8888:8888 librasteve/rakudo:rpmnyjk-amd64```
